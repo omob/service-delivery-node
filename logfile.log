@@ -1,0 +1,386 @@
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-17T16:37:52.201Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-17T16:37:54.223Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Movies\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Movies\"\n    at new CastError (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType.applySetters (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:701:12)\n    at ObjectId.SchemaType._castForQuery (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:1072:15)\n    at ObjectId.castForQuery (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.SchemaType.castForQueryWrapper (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:1041:15)\n    at cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at model.Query.Query.cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:3133:12)\n    at model.Query.Query._castConditions (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:1269:10)\n    at model.Query.Query._findOneAndUpdate (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:2146:8)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\kareem\\index.js:276:8\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\kareem\\index.js:23:7\n    at process._tickCallback (internal/process/next_tick.js:61:11)","name":"CastError","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","level":"error","timestamp":"2020-02-17T19:04:21.317Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-17T19:46:50.024Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-17T19:46:52.091Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-17T19:47:34.966Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-17T19:47:37.046Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-17T19:48:24.647Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-17T19:48:26.743Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-17T19:49:34.534Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-17T19:49:36.561Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:54:22.605Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:54:24.629Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:55:05.528Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:55:07.554Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:56:27.284Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:56:29.307Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:56:33.417Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:56:35.439Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:56:43.085Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:56:45.109Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:57:57.394Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:57:59.418Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:58:25.737Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:58:27.757Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:59:07.080Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:59:09.107Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:59:38.561Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:59:40.595Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:59:48.451Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:59:50.489Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T06:59:52.766Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T06:59:54.793Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:00:25.123Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:00:27.155Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:00:38.314Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:00:40.332Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:00:44.339Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:00:46.363Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:00:56.521Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:00:58.561Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:01:11.102Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:01:13.124Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:01:53.446Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:01:55.472Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:03:53.277Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:03:55.299Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:04:32.885Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:04:34.914Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:05:08.746Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:05:10.784Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-19T07:05:22.731Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-19T07:05:24.752Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-21T20:05:23.762Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-21T20:05:25.842Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-23T20:12:08.113Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-23T20:12:10.143Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-23T20:19:21.618Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-23T20:19:23.705Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-23T20:20:14.512Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-23T20:20:16.534Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-23T20:27:10.295Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-23T20:27:12.316Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Movies\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Movies\"\n    at new CastError (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType.applySetters (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:701:12)\n    at ObjectId.SchemaType._castForQuery (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:1072:15)\n    at ObjectId.castForQuery (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.SchemaType.castForQueryWrapper (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:1041:15)\n    at cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at model.Query.Query.cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:3133:12)\n    at model.Query.Query._castConditions (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:1269:10)\n    at model.Query.Query._findOneAndUpdate (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:2146:8)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\kareem\\index.js:276:8\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\kareem\\index.js:23:7\n    at process._tickCallback (internal/process/next_tick.js:61:11)","name":"CastError","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","level":"error","timestamp":"2020-02-23T21:02:09.320Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Movies\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Movies\"\n    at new CastError (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType.applySetters (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:701:12)\n    at ObjectId.SchemaType._castForQuery (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:1072:15)\n    at ObjectId.castForQuery (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.SchemaType.castForQueryWrapper (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:1041:15)\n    at cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at model.Query.Query.cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:3133:12)\n    at model.Query.Query._castConditions (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:1269:10)\n    at model.Query.Query._findOneAndUpdate (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:2146:8)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\kareem\\index.js:276:8\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\kareem\\index.js:23:7\n    at process._tickCallback (internal/process/next_tick.js:61:11)","name":"CastError","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","level":"error","timestamp":"2020-02-23T21:13:38.801Z"}
+{"message":"Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Movies\"","stack":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"Movies\"\n    at new CastError (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType.applySetters (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:701:12)\n    at ObjectId.SchemaType._castForQuery (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:1072:15)\n    at ObjectId.castForQuery (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.SchemaType.castForQueryWrapper (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\schematype.js:1041:15)\n    at cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at model.Query.Query.cast (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:3133:12)\n    at model.Query.Query._castConditions (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:1269:10)\n    at model.Query.Query._findOneAndUpdate (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\mongoose\\lib\\query.js:2146:8)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\kareem\\index.js:276:8\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\kareem\\index.js:23:7\n    at process._tickCallback (internal/process/next_tick.js:61:11)","name":"CastError","stringValue":"\"undefined\"","kind":"ObjectId","value":"undefined","path":"_id","level":"error","timestamp":"2020-02-23T21:31:25.599Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T05:42:09.447Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T05:42:11.479Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-27T17:01:19.345Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-27T17:02:45.260Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T17:08:19.558Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T17:08:21.661Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T17:08:45.346Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T17:08:47.447Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-27T17:08:52.156Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T17:10:50.865Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T17:10:52.949Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-27T17:10:58.582Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-27T17:17:57.002Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T17:18:39.563Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T17:18:41.645Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-27T17:18:47.362Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T17:19:07.499Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T17:19:09.584Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-27T17:19:12.650Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T17:22:24.754Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T17:22:26.847Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T17:22:35.620Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T17:22:37.740Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-27T17:22:44.814Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-27T17:22:46.909Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-29T13:35:10.768Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-29T13:35:12.798Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-29T14:02:18.838Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-29T14:02:20.861Z"}
+{"message":"Cannot read property 'details' of null","stack":"TypeError: Cannot read property 'details' of null\n    at router.post (D:\\test\\react-project\\vidly-app\\vidly-api-node\\routes\\users.js:15:21)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\test\\react-project\\vidly-app\\vidly-api-node\\node_modules\\express\\lib\\router\\index.js:284:7","level":"error","timestamp":"2020-02-29T14:03:30.392Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-29T14:03:57.244Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-29T14:03:59.273Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-29T14:04:08.479Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-29T14:04:10.501Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-29T14:05:07.417Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-29T14:05:09.437Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-29T19:29:59.770Z"}
+{"level":"error","message":"undefined 'No callback function was given.'","timestamp":"2020-02-29T19:32:38.102Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-29T19:35:09.042Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-29T19:35:11.131Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-29T19:47:24.274Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-29T19:47:26.368Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-02-29T19:50:33.677Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-02-29T19:50:35.766Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-01T22:27:05.190Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-01T22:27:07.214Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T15:56:25.162Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T15:56:27.343Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T16:24:02.475Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T16:24:04.505Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T17:14:47.188Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T17:14:49.208Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T17:18:27.546Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T17:18:29.582Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T17:20:01.898Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T17:20:03.920Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T17:20:25.108Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T17:20:27.129Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T17:21:16.882Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T17:21:18.903Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T17:21:36.253Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T17:21:38.274Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-02T17:23:10.825Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-02T17:23:12.851Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-05T12:10:02.543Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-05T12:10:05.639Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-07T09:43:22.693Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-07T09:43:24.752Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-13T10:16:36.766Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-03-13T10:16:39.013Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T15:19:46.973Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T15:19:48.992Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T15:20:25.071Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T15:20:27.090Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T15:23:05.011Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T15:23:07.028Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T15:27:55.937Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T15:27:57.955Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T15:30:24.847Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T15:30:26.864Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T15:31:06.102Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T15:31:08.123Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T15:33:47.845Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T15:33:49.865Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T15:36:01.572Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T15:36:03.590Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:21:25.267Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:21:27.286Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:22:57.049Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:22:59.071Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:27:14.260Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:27:16.281Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:28:12.641Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:28:14.664Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:30:27.138Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:30:29.156Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:30:44.175Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:30:46.195Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:33:59.000Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:34:01.025Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:34:17.430Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:34:19.450Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:35:25.129Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:35:27.153Z"}
+{"message":"Employee validation failed: companyName: Path `companyName` is required.","errors":{"companyName":{"message":"Path `companyName` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"companyName"},"kind":"required","path":"companyName","$isValidatorError":true}},"_message":"Employee validation failed","stack":"ValidationError: Employee validation failed: companyName: Path `companyName` is required.\n    at new ValidationError (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\document.js:1656:32)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\document.js:1528:17\n    at Immediate.<anonymous> (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schematype.js:785:9)\n    at processImmediate (internal/timers.js:456:21)","name":"ValidationError","level":"error","timestamp":"2020-03-16T16:35:32.810Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:42:06.444Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:42:08.465Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:43:41.147Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:43:42.650Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:43:44.670Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:44:35.588Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:44:37.609Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:44:46.667Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:44:48.688Z"}
+{"message":"companyName is not defined","stack":"ReferenceError: companyName is not defined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\users.js:25:5","level":"error","timestamp":"2020-03-16T16:45:04.095Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T16:45:32.847Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T16:45:34.868Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T17:38:44.862Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T17:38:46.881Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T18:35:28.932Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T18:35:30.951Z"}
+{"message":"Cannot read property 'findOne' of undefined","stack":"TypeError: Cannot read property 'findOne' of undefined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\auth.js:13:29\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:284:7","level":"error","timestamp":"2020-03-16T18:35:37.879Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T18:36:13.089Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T18:36:15.109Z"}
+{"message":"Cannot read property 'findOne' of undefined","stack":"TypeError: Cannot read property 'findOne' of undefined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\auth.js:14:29\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:284:7","level":"error","timestamp":"2020-03-16T18:36:15.561Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-16T18:36:38.273Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-16T18:36:40.295Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T11:08:32.490Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T11:08:34.517Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T11:31:19.400Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T11:31:21.417Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T11:32:53.303Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T11:32:55.316Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T11:42:10.463Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T11:42:12.475Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T11:53:26.011Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T11:53:28.024Z"}
+{"message":"Cast to ObjectId failed for value \"[]\" at path \"employees\"","stack":"CastError: Cast to ObjectId failed for value \"[]\" at path \"employees\"\n    at new CastError (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType.getDefault (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schematype.js:648:23)\n    at model.Document.$__buildDoc (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\document.js:285:22)\n    at model.Document (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\document.js:74:20)\n    at model.Model (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\model.js:59:12)\n    at new model (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\model.js:3750:13)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\users.js:22:10\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","name":"CastError","stringValue":"\"[]\"","kind":"ObjectId","value":[],"path":"employees","level":"error","timestamp":"2020-03-17T11:54:07.912Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:08:13.497Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:08:15.513Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:13:55.419Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:13:57.435Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:14:28.572Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:14:30.588Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:14:49.623Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:14:51.636Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:15:59.172Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:16:01.186Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:16:08.446Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:16:10.459Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:19:23.969Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:19:25.984Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:20:26.024Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:20:28.043Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:21:44.320Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:21:46.341Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:33:12.312Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:33:14.336Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:33:54.534Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:33:56.554Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:34:33.126Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:34:35.141Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T12:38:31.131Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T12:38:33.145Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T14:27:25.719Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T14:27:27.733Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T14:32:22.395Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T14:32:24.407Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T14:36:48.146Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T14:36:50.159Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T14:37:06.952Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T14:37:08.973Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:05:21.519Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:05:23.577Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:06:40.609Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:06:42.646Z"}
+{"message":"Employee validation failed: companyName: Path `companyName` is required.","errors":{"companyName":{"message":"Path `companyName` is required.","name":"ValidatorError","properties":{"message":"Path `{PATH}` is required.","type":"required","path":"companyName"},"kind":"required","path":"companyName","$isValidatorError":true}},"_message":"Employee validation failed","stack":"ValidationError: Employee validation failed: companyName: Path `companyName` is required.\n    at new ValidationError (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Document.invalidate (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\document.js:1656:32)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\document.js:1528:17\n    at Immediate.<anonymous> (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schematype.js:785:9)\n    at processImmediate (internal/timers.js:456:21)","name":"ValidationError","level":"error","timestamp":"2020-03-17T17:06:46.326Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:07:34.500Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:07:36.551Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:08:03.539Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:08:05.607Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:10:35.406Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:10:37.436Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:11:50.918Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:11:52.955Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:16:49.564Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:16:51.643Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:17:07.047Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:17:09.074Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:17:21.949Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:17:24.020Z"}
+{"message":"validate is not defined","stack":"ReferenceError: validate is not defined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:10:21\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (D:\\Project\\GitHub Project\\service-delivery-node\\middleware\\auth.js:14:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2020-03-17T17:17:26.669Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:18:00.532Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:18:02.695Z"}
+{"message":"validate is not a function","stack":"TypeError: validate is not a function\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:10:21\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (D:\\Project\\GitHub Project\\service-delivery-node\\middleware\\auth.js:14:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2020-03-17T17:18:04.892Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:19:42.612Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:19:47.243Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:19:49.319Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:23:32.170Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:23:34.227Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:23:52.071Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:23:54.141Z"}
+{"message":"companyName is not defined","stack":"ReferenceError: companyName is not defined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:33:29\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","level":"error","timestamp":"2020-03-17T17:24:06.676Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:24:45.921Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:24:47.983Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T17:25:06.045Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T17:25:08.090Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:14:19.652Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:14:21.690Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:25:40.863Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:25:42.876Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:31:38.280Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:31:40.292Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:32:28.351Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:32:30.366Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:32:56.560Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:32:58.571Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:35:04.859Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:35:06.872Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:35:34.675Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:35:36.687Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:37:31.455Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:37:33.468Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:39:29.419Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:39:31.432Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:45:44.471Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:45:46.485Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:47:16.663Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:47:18.676Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:48:41.304Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:48:43.317Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-17T22:54:55.452Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-17T22:54:57.472Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T06:53:49.438Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T06:53:51.457Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T06:54:57.324Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T06:54:59.386Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T06:56:46.040Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T06:56:48.103Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T07:00:27.731Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T07:00:29.784Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T07:04:02.664Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T07:04:04.730Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T07:04:22.764Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T07:04:24.788Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T07:27:16.205Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T07:27:18.220Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T09:33:02.149Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T09:33:04.173Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T09:37:08.302Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T09:37:10.317Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T09:42:26.487Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T09:42:28.500Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T09:44:00.393Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T09:44:02.405Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T09:44:25.502Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T09:44:27.513Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T09:45:34.086Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T09:45:36.125Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T09:45:58.595Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T09:46:00.608Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T09:46:32.768Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T09:46:34.786Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-18T17:37:21.234Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-18T17:37:23.251Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T12:45:01.256Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T12:45:03.272Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T12:46:15.545Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T12:46:17.558Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T12:52:21.942Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T12:52:23.955Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T12:52:42.775Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T12:52:44.786Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T13:44:38.281Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T13:44:40.293Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T13:46:08.420Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T13:46:10.432Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T13:53:33.314Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T13:53:35.328Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T13:56:52.064Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T13:56:54.081Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:00:58.764Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:01:00.781Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:02:01.599Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:02:03.629Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:03:38.146Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:03:40.162Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:04:16.082Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:04:18.096Z"}
+{"message":"Invalid schema content: (ratings)","stack":"AssertionError [ERR_ASSERTION]: Invalid schema content: \n    at Object.exports.schema (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\joi\\lib\\cast.js:55:10)\n    at internals.Object.keys (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\joi\\lib\\types\\object\\index.js:359:35)\n    at Object.exports.schema (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\joi\\lib\\cast.js:36:29)\n    at module.exports.internals.Any.root.compile (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\joi\\lib\\index.js:150:25)\n    at module.exports.internals.Any.root.validate (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\joi\\lib\\index.js:136:29)\n    at validateUser (D:\\Project\\GitHub Project\\service-delivery-node\\models\\staffReport.js:29:14)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:51:21\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (D:\\Project\\GitHub Project\\service-delivery-node\\middleware\\auth.js:14:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17","generatedMessage":false,"name":"AssertionError","code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"==","path":"ratings","level":"error","timestamp":"2020-03-19T14:04:23.916Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:04:59.547Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:05:01.559Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:11:32.510Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:11:34.536Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:14:32.497Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:14:34.511Z"}
+{"message":"_id is not defined","stack":"ReferenceError: _id is not defined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:59:7\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (D:\\Project\\GitHub Project\\service-delivery-node\\middleware\\auth.js:14:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2020-03-19T14:14:46.392Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:15:12.541Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:15:14.556Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:18:31.622Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:18:33.634Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:21:17.575Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:21:19.588Z"}
+{"message":"Mongoose is not defined","stack":"ReferenceError: Mongoose is not defined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:61:12\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (D:\\Project\\GitHub Project\\service-delivery-node\\middleware\\auth.js:14:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2020-03-19T14:21:29.021Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:21:51.674Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:21:53.687Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:23:44.993Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:23:47.006Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T14:24:01.591Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T14:24:03.605Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T18:33:32.749Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T18:33:34.761Z"}
+{"message":"Cast to ObjectId failed for value \"{ staffId: '5e7381452292b96bbc118940' }\" at path \"_id\" for model \"StaffReport\"","stack":"CastError: Cast to ObjectId failed for value \"{ staffId: '5e7381452292b96bbc118940' }\" at path \"_id\" for model \"StaffReport\"\n    at new CastError (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType.applySetters (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schematype.js:701:12)\n    at ObjectId.SchemaType._castForQuery (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schematype.js:1072:15)\n    at ObjectId.castForQuery (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.SchemaType.castForQueryWrapper (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\schematype.js:1041:15)\n    at cast (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\cast.js:214:34)\n    at model.Query.Query.cast (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\query.js:3133:12)\n    at model.Query.Query._castConditions (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\query.js:1269:10)\n    at model.Query.Query._findOne (D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\mongoose\\lib\\query.js:1485:8)\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\kareem\\index.js:276:8\n    at D:\\Project\\GitHub Project\\service-delivery-node\\node_modules\\kareem\\index.js:23:7\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)","name":"CastError","stringValue":"\"{ staffId: '5e7381452292b96bbc118940' }\"","kind":"ObjectId","value":{"staffId":"5e7381452292b96bbc118940"},"path":"_id","level":"error","timestamp":"2020-03-19T18:33:51.547Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T18:35:09.206Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T18:35:11.226Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T18:35:36.308Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T18:35:38.320Z"}
+{"message":"E is not defined","stack":"ReferenceError: E is not defined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:78:20\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","level":"error","timestamp":"2020-03-19T18:35:43.508Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T18:36:05.346Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T18:36:07.359Z"}
