@@ -384,3 +384,75 @@
 {"message":"E is not defined","stack":"ReferenceError: E is not defined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:78:20\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","level":"error","timestamp":"2020-03-19T18:35:43.508Z"}
 {"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-19T18:36:05.346Z"}
 {"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-19T18:36:07.359Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T10:35:03.867Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T10:35:05.927Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T13:55:12.409Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T13:55:14.425Z"}
+{"message":"Cannot read property 'push' of undefined","stack":"TypeError: Cannot read property 'push' of undefined\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:73:22\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","level":"error","timestamp":"2020-03-20T13:56:03.254Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T13:56:47.852Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T13:56:49.865Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T13:56:53.274Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T13:56:55.288Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T13:59:21.538Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T13:59:23.551Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:00:58.264Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:01:00.278Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:02:15.982Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:02:17.996Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:02:31.074Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:02:33.087Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:03:30.711Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:03:32.725Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:05:10.632Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:05:12.645Z"}
+{"message":"Cannot read property 'reports' of null","stack":"TypeError: Cannot read property 'reports' of null\n    at D:\\Project\\GitHub Project\\service-delivery-node\\routes\\staffs.js:73:26\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","level":"error","timestamp":"2020-03-20T14:05:32.588Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:05:48.569Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:05:50.591Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:06:05.447Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:06:07.460Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:10:30.950Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:10:32.964Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:16:17.157Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:16:19.170Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:16:36.759Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:16:38.772Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:16:54.606Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:16:56.618Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:17:25.626Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:17:27.640Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:18:03.112Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:18:05.125Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T14:55:30.601Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T14:55:32.616Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:07:17.240Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:07:19.254Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:07:29.271Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:07:31.284Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:08:30.195Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:08:32.210Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:09:06.140Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:09:08.154Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:10:35.229Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:10:37.241Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:13:41.699Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:13:43.714Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:16:07.872Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:16:09.885Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:19:30.018Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:19:32.031Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:20:49.516Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:20:51.531Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:35:05.562Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:35:07.575Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:44:36.736Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:44:38.749Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:46:26.237Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:46:28.250Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:52:23.376Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:52:25.391Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:52:50.603Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:52:52.616Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T15:59:16.790Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T15:59:18.803Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-03-20T16:00:20.653Z"}
+{"level":"info","message":"Connected to mongodb://localhost/service-delivery...","timestamp":"2020-03-20T16:00:22.668Z"}

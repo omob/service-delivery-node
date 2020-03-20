@@ -54,27 +54,39 @@ router.post("/reviews", auth, async (req, res) => {
 
   const { staffId, client, ratings } = req.body;
 
+  const employee = await Employee.findById({ _id: staffId });
   // check if staffId exists
   const staff = await StaffReport.findOne({ staffId });
   if (!staff) {
     //create new staff
-    //return
+    const newStaffReport = new StaffReport({
+      staffId,
+      reports: {
+        client,
+        ratings,
+        _id: Mongoose.Types.ObjectId(),
+        created: new Date()
+      }
+    });
+
+    const { _id, reports } = await newStaffReport.save();
+    employee.reports.push(_id);
+    await employee.save();
+    return res.send({ staffId, report: _.head(reports) });
   }
 
   //populate existing staff
-
-  const newStaffReport = new StaffReport({
-    staffId,
-    reports: {
-      client,
-      ratings,
-      _id: Mongoose.Types.ObjectId(),
-      created: new Date()
-    }
+  staff.reports.push({
+    client,
+    ratings,
+    _id: Mongoose.Types.ObjectId(),
+    created: new Date()
   });
 
-  const response = await newStaffReport.save();
+  const { _id, reports } = await staff.save();
+  // employee.reports.push(_id);
+  // await employee.save();
 
-  // const employer = await E;
+  return res.send({ staffId, report: _.last(reports) });
 });
 module.exports = router;
