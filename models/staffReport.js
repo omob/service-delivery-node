@@ -13,7 +13,8 @@ const staffReportSchema = new Schema({
     ratings: {
       type: Array,
       ratings: { type: Array },
-      review: { type: String, default: "" }
+      review: { type: String, default: "" },
+      link: ""
     },
     client: String,
     created: { type: Date, default: Date.now }

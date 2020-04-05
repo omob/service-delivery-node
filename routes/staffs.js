@@ -44,7 +44,13 @@ router.get("/", auth, async (req, res) => {
 });
 
 router.get("/:id", auth, async (req, res) => {
-  const staff = await Employee.findById({ _id: req.params.id });
+  const staff = await Employee.findById({ _id: req.params.id }).populate({
+    path: "reports",
+    model: StaffReport,
+    select: "-v"
+  });
+
+  console.log(staff);
   res.send(staff);
 });
 
@@ -63,7 +69,10 @@ router.post("/reviews", auth, async (req, res) => {
       staffId,
       reports: {
         client,
-        ratings,
+        ratings: {
+          rating: ratings,
+          review: ""
+        },
         _id: Mongoose.Types.ObjectId(),
         created: new Date()
       }
@@ -72,21 +81,24 @@ router.post("/reviews", auth, async (req, res) => {
     const { _id, reports } = await newStaffReport.save();
     employee.reports.push(_id);
     await employee.save();
-    return res.send({ staffId, report: _.head(reports) });
+    return res.send({ _id, report: _.head(reports), link: "" });
   }
 
   //populate existing staff
   staff.reports.push({
     client,
-    ratings,
     _id: Mongoose.Types.ObjectId(),
-    created: new Date()
+    created: new Date(),
+    ratings: {
+      rating: ratings,
+      review: ""
+    }
   });
 
   const { _id, reports } = await staff.save();
   // employee.reports.push(_id);
   // await employee.save();
 
-  return res.send({ staffId, report: _.last(reports) });
+  return res.send({ _id, report: _.last(reports) });
 });
 module.exports = router;

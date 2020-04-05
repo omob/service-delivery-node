@@ -2,5 +2,6 @@
   "jwtPrivateKey": "unsecureKey",
   "db": "mongodb://localhost/service-delivery",
   "port": "3900",
-  "requiresAuth": true
+  "requiresAuth": true,
+  "frontEndUrl": "http://localhost:3000"
 }
