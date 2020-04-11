@@ -19,11 +19,11 @@ router.post("/", auth, async (req, res) => {
   const newStaff = new Employee({
     name: {
       firstName,
-      lastName
+      lastName,
     },
     role,
     image,
-    companyName: employer.companyName
+    companyName: employer.companyName,
   });
 
   const result = await newStaff.save();
@@ -38,7 +38,7 @@ router.get("/", auth, async (req, res) => {
   const { employees } = await Employer.findOne({ _id: req.user._id }).populate({
     path: "employees",
     model: Employee,
-    select: "-_v"
+    select: "-_v",
   });
   res.send(employees);
 });
@@ -47,10 +47,9 @@ router.get("/:id", auth, async (req, res) => {
   const staff = await Employee.findById({ _id: req.params.id }).populate({
     path: "reports",
     model: StaffReport,
-    select: "-v"
+    select: "-v",
   });
 
-  console.log(staff);
   res.send(staff);
 });
 
@@ -71,11 +70,11 @@ router.post("/reviews", auth, async (req, res) => {
         client,
         ratings: {
           rating: ratings,
-          review: ""
+          review: "",
         },
         _id: Mongoose.Types.ObjectId(),
-        created: new Date()
-      }
+        created: new Date(),
+      },
     });
 
     const { _id, reports } = await newStaffReport.save();
@@ -91,8 +90,8 @@ router.post("/reviews", auth, async (req, res) => {
     created: new Date(),
     ratings: {
       rating: ratings,
-      review: ""
-    }
+      review: "",
+    },
   });
 
   const { _id, reports } = await staff.save();

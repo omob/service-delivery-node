@@ -21,22 +21,22 @@ router.get("/:id", async (req, res) => {
     await StaffReport.findById({ _id: req.params.id }).populate({
       path: "staffId",
       model: Employee,
-      select: "-_v"
+      select: "-_v",
     })
   );
 
   if (response === "null") return res.status(404).send("Not found");
 
   const { reports, staffId: staff, _id } = JSON.parse(response);
-  const filteredReport = reports.find(data => data._id === reviewId);
+  const filteredReport = reports.find((data) => data._id === reviewId);
 
   res.send({
     _id,
     staff: {
       fullname: staff.name.firstName + " " + staff.name.lastName,
-      ...staff
+      ...staff,
     },
-    report: filteredReport
+    report: filteredReport,
   });
 });
 
@@ -53,7 +53,7 @@ router.put("/:id", async (req, res) => {
   try {
     const result = await StaffReport.findById({ _id: req.params.id });
     const reports = JSON.parse(JSON.stringify(result.reports));
-    const report = reports.find(report => report._id === reviewId);
+    const report = reports.find((report) => report._id === reviewId);
 
     const index = reports.indexOf(report);
 
@@ -68,7 +68,8 @@ router.put("/:id", async (req, res) => {
     await result.save();
     res.send(report);
   } catch (e) {
-    res.status(400).send("Something went wrong");
+    console.log(e.message);
+    res.status(400).send("Something went wrong, try again later");
   }
 });
 
